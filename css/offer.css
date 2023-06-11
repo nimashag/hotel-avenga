@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+   }
+   
+   body
+   {
+       background-color: bisque;
+       font-family: arial;
+   }
+   
+   .main
+   {
+    margin: 2%;
+   }
+   
+   .card
+   {
+       width: 20%;
+       display: inline-block;
+       box-shadow: 2px 2px 20px black;
+       border-radius: 5px; 
+       margin: 2%;
+    }
+   
+   .image img
+   {
+     width: 100%;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+   }
+   
+   .title
+   {
+     text-align: center;
+     padding: 10px;
+   }
+   
+   h1
+   {
+       color: black;
+   }
+   
+   h2
+   {
+     font-size: 20px;
+   }
+   
+   .des
+   {
+     padding: 3px;
+     text-align: center;
+     padding-top: 10px;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+   }
+   
+   button
+   {
+     margin-top: 40px;
+     margin-bottom: 10px;
+     background-color: bisque;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding:10px;
+   }
+   
+   button:hover
+   {
+     background-color: black;
+     color: white;
+     transition: 0.5s;
+     cursor: pointer;
+   }
+
+   .footer {
+    margin-top: 150px;
+    
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+

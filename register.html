@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+	     Registration Form 
+	</title>	
+	
+	
+    <link rel="stylesheet" href="css/logstyle.css">
+	<link rel="stylesheet" href="css/Rformstyle.css">
+	
+</head>
+
+<body>
+
+    
+    <right>
+	    
+	    
+		<!-- <form action="register.php" method="post" onsubmit=" return checkPassword()" >  -->
+	    <form action="#" method="POST"  >	
+        <div>
+            <h2>Registration</h2> <br>
+
+			
+
+		    <label>First Name:</label> 
+			<input type="text" name="firstname" placeholder="First Name" required> <br/><br/>
+			
+			<label>Last Name:</label> 
+			<input type="text" name="lastname" placeholder="Last Name" required> <br/><br/>
+			
+			<label>Gender:</label>
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender" checked>Female<br/><br/>
+			
+			<label>Mobile Number:</label>
+			<input type="phone" name="mobile" placeholder="0777777777" pattern="[0-9]{10}"
+			    required> <br/> <br/>
+				
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="abc@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}"
+     			required> <br/> <br/>	
+
+            <label>Address:</label>
+            <textarea name="address" rows="1" cols="20" required> </textarea> <br/> <br/>
+
+            <label>Country:</label> 
+			<input type="text" name="country" placeholder="Country Name" required> <br/><br/>
+
+            <label>Postal Code:</label> 
+			<input type="text" name="postalcode" placeholder="Postal Code" required> <br/><br/>
+
+			<label>Birthday:</label>
+			<input type = "date" name="dob"  required> <br/> <br/>
+
+            <label>Username:</label> 
+			<input type="text" name="username" placeholder="Username" required> <br/><br/>
+			
+			<label>Password:</label>
+			<input type="password" name="password" id="pwd" 
+			    required><br/><br/>
+				
+			<label>Re-Enter Password:</label>
+			<input type="password" name="password" id="cnfrmpwd" required> <br/><br/>
+			
+			<br><center>
+			<input type="checkbox" id="checkbox" class="inputStyle"
+			   onclick="enableButton()">Accept Privacy Policy and Terms<br/><br/>
+			</center>   
+			   
+			<center>
+				
+			    <input type="submit" value="Register" id="submitBtn" >
+			    
+			</center> 
+			
+		
+			<p><center>Already have an account?
+                <a href="login.html" 
+                class="login-link">Login</a></center>
+            </p> 
+        </div>    
+	    </form>
+        
+		
+	</right>
+
+</body>
+
+</html>
