@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*-------Header--------*/
+.headerh1{
+    font-size: 65px;
+    color: #fff;
+    text-align: center;
+    font-family: "poppins", sans-serif;
+    /* padding-top: 100px;
+    padding-bottom: 0; */
+    font-weight: 700;
+} 
+
+.header h1 a{
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.header{
+    min-height: 20vh;
+    min-width: 100%;
+    background-image: url(img/himage3.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.logo{
+    padding-left:2px ;
+}
+
+/*------Navigation Bar-------*/
+
+.nav_section{
+    flex: 1;
+    text-align: left; 
+    height: 12vh;
+    background-color: #252525;   
+    padding: 0;
+    padding-left: 195px;
+}
+
+.nav_section ul li{
+    list-style: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "poppins", sans-serif;
+    padding: 18px 27px;
+    
+}
+
+.nav_section ul li::after{
+    content: '';
+    width:0%;
+    height:2px;
+    background: #4767f9;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav_section ul li:hover::after{
+    width: 100%;
+}
+
+.nav_section ul i{
+    color: #ffffff;
+    padding-left:20px ;
+}
+
+.nav_section ul li a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+}
+
+.nav_section fa{
+    color: #fff;
+}
+
+@media only screen and (max-width: 700px){
+    .headerh1 a{
+        font-size: 100px;
+    } 
+} 
+/*------Image Slider--------*/
+
+.slide-image{
+    overflow: hidden;
+    height: 427px;
+    width: 640px;
+}
+
+/*---Slide Animation---*/
+
+ @-webkit-keyframes slide_animation{
+    0% {left : 0px;}  
+    20% {left : 640px;}
+    40% {left : 1280px;}
+    60% {left : 1920px;}
+    80% {left : 2560px;}
+    100% {left : 2550px;}
+} 
+
+.slide-image{
+    width:3200px;
+    height: 427px;
+    margin: 0 0 0 -2560px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 20s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate-reverse;
+    -webkit-animation-play-state: running;
+
+}
+
+.image-container{
+    height: 427px;
+    width: 640px;
+    position: relative;
+    float: left;
+} 
+
+/*------Weddings & Events--------*/
+
+.events{
+    width:80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 30px;
+ }
+
+.events h1{
+    font-family: "poppins",sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.events p1{
+    font-size: 20px;
+    font-family: "poppins",sans-serif;
+    text-align: justify;
+}
+
+/*------Event Booking------*/
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.events-col{
+    flex-basis: 32%;
+    background: #facaca74;
+    border-radius: 0px;
+    margin-bottom: 0%;
+    padding: 15px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "poppins",sans-serif;
+}
+
+.events-col img{
+    width: 350px;
+    height: 200px;
+}
+.events-col:hover{
+    box-shadow: 0px 0px 20px 0px rgba(237, 111, 111, 0.7) ;
+}
+
+.hero-btn{
+	display:inline-block;
+	color:#a83f3f;
+	border:3px solid #a83f3f;
+	text-decoration:none;
+	padding:12px 34px;
+	font-size:15px;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+}
+.hero-btn:hover{
+	border:3px solid #a83f3f;
+	background:#fff;
+	transition:0.2s;
+}
+
+/*-----row 1----*/
+.row1{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 150px;
+}
+.events-col-2{
+    flex-basis: 30%;
+    background: #facaca74;
+    border-radius: 0px;
+    margin-bottom: 10%;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: "poppins",sans-serif;
+    
+}
+
+.events-col-2 img{
+    width: 350px;
+    height: 200px;
+}
+.events-col-2:hover{
+    box-shadow: 0px 0px 20px 0px rgba(237, 111, 111, 0.7) ;
+}
+
+.hero-btn{
+	display:inline-block;
+	color:#a83f3f;
+	border:3px solid #a83f3f;
+	text-decoration:none;
+	padding:12px 34px;
+	font-size:15px;
+	background:transparent;
+	position:relative;
+	cursor:pointer;
+}
+.hero-btn:hover{
+	border:3px solid #a83f3f;
+	background:#fff;
+	transition:0.2s;
+}
+
+---footer---
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer {
+    margin-top: 150px;
+    
+    padding: 100px 15%;
+    background: #333;
+    color: #efefef;
+    display: flex;
+}
+
+.footer div {
+    text-align: center;
+
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3 {
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.col-1 a {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+form input {
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form button {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i {
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+
+

@@ -30,7 +30,17 @@
    <title>User</title>
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/new.css">
+    <link rel="stylesheet" href="css/user.css">
+
+    <style>
+      body
+      {
+          background-image: url('bg0.jpg');
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100% 100%;
+      }
+  </style>
 
 </head>
 <body>

@@ -45,7 +45,7 @@
         <a href="#" class="logo"> <img src="img/logo11.png" alt=""> </a>
 
         <ul class="nav-menu">
-          <li> <a href="index.html" class="nav-link">Home</a> </li>
+          <li> <a href="index.php" class="nav-link">Home</a> </li>
           <li> <a href="events.html" class="nav-link">Events</a> </li>
           <li> <a href="offers.html" class="nav-link">Offers</a> </li>
           <li> <a href="bookings.html" class="nav-link">Bookings</a> </li>

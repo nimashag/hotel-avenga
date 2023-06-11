@@ -69,7 +69,7 @@
                 <p>We are always eager to hear from you</p>
             </div>
             <div class="button">
-                <button class="btn1"><a href="index.html" style="text-decoration:none">Home</a></button>
+                <button class="btn1"><a href="index.php" style="text-decoration:none">Home</a></button>
               </div>
             <div class="container">
                 <div class="contactInfo">
@@ -107,7 +107,8 @@
                             <span>Email</span>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="message" required="required">
+                            <!-- <input type="text" name="" required="required"> -->
+                            <textarea name="message" rows="5" cols="20" required></textarea>
                             <span>Type Your Message...</span>
                         </div>
                         <div class="inputBox">

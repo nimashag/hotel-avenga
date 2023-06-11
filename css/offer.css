@@ -136,3 +136,84 @@ form button {
     cursor: pointer;
 }
 
+
+/*-------Header--------*/
+.headerh1{
+  font-size: 65px;
+  color: #fff;
+  text-align: center;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+} 
+
+.header h1 a{
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.header{
+  min-height: 20vh;
+  min-width: 100%;
+  background-image: url(img/himage3.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.logo{
+  padding-left:2px ;
+}
+
+.nav_section{
+  flex: 1;
+  text-align: left; 
+  height: 12vh;
+  background-color: #252525;   
+  padding: 0;
+  padding-left: 195px;
+}
+
+.nav_section ul li{
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "poppins", sans-serif;
+  padding: 18px 27px;
+  
+}
+
+.nav_section ul li::after{
+  content: '';
+  width:0%;
+  height:2px;
+  background: #4767f9;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav_section ul li:hover::after{
+  width: 100%;
+}
+
+.nav_section ul i{
+  color: #ffffff;
+  padding-left:20px ;
+}
+
+.nav_section ul li a{
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+}
+
+.nav_section fa{
+  color: #fff;
+}
+
+@media only screen and (max-width: 700px){
+  .headerh1 a{
+      font-size: 100px;
+  } 
+} 
